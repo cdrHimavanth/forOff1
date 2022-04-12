@@ -14,6 +14,9 @@ class InputClass2 extends InputClass{
     }
 }
 public class DynamicInput {
+    public int sum(int a, int b){
+        return a+b;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the number of \"rows\"");
